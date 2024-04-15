@@ -1,0 +1,12 @@
+/* styles.css */
+.btn-primary {
+    background-color: gold; /* Set background color to gold */
+    border-color: blue; /* Set border color to blue */
+    color: blue; /* Set text color to blue */
+  }
+
+  .btn-primary:hover {
+    background-color: blue; /* Change background color on hover to blue */
+    border-color: blue; /* Change border color on hover to blue */
+    color: gold; /* Change text color on hover to gold */
+  }

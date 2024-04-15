@@ -1,0 +1,18 @@
+// contracts/KYC.sol
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+contract KYC {
+    struct Customer {
+        string name;
+        string dob;
+        string nationality;
+        string address;
+    }
+
+    mapping(address => Customer) public customers;
+
+    function addCustomer(string memory name, string memory dob, string memory nationality, string memory address) public {
+        customers[msg.sender] = Customer(name, dob, nationality, address);
+    }
+}

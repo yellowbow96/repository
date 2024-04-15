@@ -1,0 +1,23 @@
+{
+    "name": "letssgooo",
+    "version": "1.0.0",
+    "description": "Description of your project",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js",
+      "build": "node build.js",
+      "deploy": "firebase deploy --only functions"
+    },
+    "author": "yellowbow96",
+    "license": "EPL-2.0",
+    "dependencies":{
+            "dependency1": "^1.0.0",
+            "dependency2": "^2.0.0"
+          },
+          "devDependencies": {
+            "newDevDependency1": "^5.0.0",
+            "newDevDependency2": "^6.0.0"
+          }
+  }
+
+  
